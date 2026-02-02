@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - TMDTOUCH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="TMDTOUCH Logo" width="50">
+                <span>TMDTOUCH</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-details">
+            <div class="gallery">
+                <img src="https://via.placeholder.com/500x500?text=Product+Image+1" alt="Product Image 1" class="main-image">
+                <div class="thumbnails">
+                    <img src="https://via.placeholder.com/100x100?text=Thumb+1" alt="Thumb 1">
+                    <img src="https://via.placeholder.com/100x100?text=Thumb+2" alt="Thumb 2">
+                </div>
+            </div>
+            <div class="details">
+                <h1>Luxe Matte Foundation</h1>
+                <p class="price">$45.00</p>
+                <p class="description">Achieve flawless, natural-looking skin with our long-lasting matte foundation. Perfect for all skin types.</p>
+                <button id="favorite-btn" class="btn primary">Add to Favorites</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 TMDTOUCH. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

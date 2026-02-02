@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMDTOUCH - Luxury Makeup</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="TMDTOUCH Logo" width="50">
+                <span>TMDTOUCH</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>TMDTOUCH</h1>
+            <p>Empower Your Beauty, Unleash Your Confidence</p>
+            <div class="cta-buttons">
+                <a href="products.html" class="btn primary">Shop Now</a>
+                <a href="products.html" class="btn secondary">Explore Collection</a>
+            </div>
+        </section>
+
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Foundation" alt="Foundation">
+                    <h3>Luxe Matte Foundation</h3>
+                    <p>$45.00</p>
+                    <p>Flawless, long-lasting coverage.</p>
+                    <a href="product-details.html" class="btn small">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Lipstick" alt="Lipstick">
+                    <h3>Velvet Lipstick</h3>
+                    <p>$25.00</p>
+                    <p>Creamy texture in bold shades.</p>
+                    <a href="product-details.html" class="btn small">View Details</a>
+                </div>
+                <div class="product-card">
+                    <img src="https://via.placeholder.com/300x300?text=Eyeshadow" alt="Eyeshadow">
+                    <h3>Shimmer Eyeshadow Palette</h3>
+                    <p>$50.00</p>
+                    <p>12 shades for endless looks.</p>
+                    <a href="product-details.html" class="btn small">View Details</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 TMDTOUCH. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

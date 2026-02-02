@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TMDTOUCH</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="TMDTOUCH Logo" width="50">
+                <span>TMDTOUCH</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about">
+            <h1>About TMDTOUCH</h1>
+            <p>At TMDTOUCH, we believe beauty is about confidence and self-expression. Our mission is to provide high-quality, luxurious makeup that empowers you to shine.</p>
+            <p>Founded with a passion for quality ingredients and innovative formulas, TMDTOUCH is dedicated to creating products that enhance your natural beauty while being kind to your skin.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 TMDTOUCH. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
